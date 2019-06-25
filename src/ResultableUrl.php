@@ -20,6 +20,7 @@ class ResultableUrl
                 $href .= $k.'='.$v;
             }
         }
+        
         return $href;
     }
 }
