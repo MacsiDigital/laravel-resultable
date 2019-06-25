@@ -1,9 +1,10 @@
 <?php
 
-namespace MacsiDigital\Resultable;
+namespace MacsiDigital\Resultable\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use MacsiDigital\Resultable\Resultable;
 
 class ResultableServiceProvider extends ServiceProvider
 {
@@ -22,7 +23,7 @@ class ResultableServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('resultable.php'),
+                __DIR__.'/../../config/config.php' => config_path('resultable.php'),
             ], 'config');
 
             // Publishing the views.
@@ -55,7 +56,7 @@ class ResultableServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'resultable');
+        $this->mergeConfigFrom(__DIR__.'/../../config/config.php', 'resultable');
 
         // Register the main class to use with the facade
         $this->app->singleton('resultable', function () {

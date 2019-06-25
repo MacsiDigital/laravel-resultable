@@ -1,13 +1,13 @@
 <?php
 
-namespace MacsiDigital\Resultable;
+namespace MacsiDigital\Resultable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see \Macsidigital\Resultable\Skeleton\SkeletonClass
  */
-class ResultableFacade extends Facade
+class Resultable extends Facade
 {
     /**
      * Get the registered name of the component.

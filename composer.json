@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MacsiDigital\\Resultable\\ResultableServiceProvider"
+                "MacsiDigital\\Resultable\\Providers\\ResultableServiceProvider"
             ],
             "aliases": {
-                "Resultable": "MacsiDigital\\Resultable\\ResultableFacade"
+                "Resultable": "MacsiDigital\\Resultable\\Facades\\Resultable"
             }
         }
     }
