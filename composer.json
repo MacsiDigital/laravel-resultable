@@ -1,11 +1,11 @@
 {
-    "name": "macsidigital/resultable",
+    "name": "macsidigital/laravel-resultable",
     "description": "A little package to add amount of results to searches",
     "keywords": [
         "macsidigital",
-        "resultable"
+        "laravel-resultable"
     ],
-    "homepage": "https://github.com/macsidigital/resultable",
+    "homepage": "https://github.com/macsidigital/laravel-resultable",
     "license": "MIT",
     "type": "library",
     "authors": [
