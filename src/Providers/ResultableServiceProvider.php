@@ -45,7 +45,7 @@ class ResultableServiceProvider extends ServiceProvider
             // $this->commands([]);
         }
 
-        Blade::directive('resultableurl', function ($expression) {
+        Blade::directive('resultableurl', function () {
             return "<?php echo \MacsiDigital\Resultable\ResultableUrl::render();?>";
         });
     }
