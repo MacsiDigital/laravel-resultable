@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/laravel-resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-resultable)
 [![Build Status](https://img.shields.io/travis/macsidigital/laravel-resultable/master.svg?style=flat-square)](https://travis-ci.org/MacsiDigital/laravel-resultable)
+[![StyleCI](https://github.styleci.io/repos/193589098/shield?branch=master)](https://github.styleci.io/repos/193589098)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/MacsiDigital/laravel-resultable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/MacsiDigital/laravel-resultable/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/laravel-resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/laravel-resultable)
 
