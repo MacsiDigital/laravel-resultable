@@ -16,6 +16,14 @@ You can install the package via composer:
 composer require macsidigital/laravel-resultable
 ```
 
+The service provider should automatically register for For Laravel > 5.4.
+
+For Laravel < 5.5, open config/app.php and, within the providers array, append:
+
+``` php
+MacsiDigital\Resultavle\Providers\ResultavleServiceProvider::class
+```
+
 ## Usage
 
 Set the various options in the config like so
